@@ -11,8 +11,9 @@ This project aims to build a machine learning classifier to predict the primary 
 
 **Key Stakeholders**
 Vehicle Safety Board: Interested in identifying and mitigating the most common causes of traffic accidents to improve vehicle and road safety.
+
 City of Chicago: Seeks to reduce the number of traffic accidents and improve public safety through data-driven decision-making and targeted interventions.
-Insurance Companies: May use the insights to assess risks and develop pricing strategies based on accident causes.
+
 
 
 
@@ -30,8 +31,6 @@ The project uses the following datasets:
 - [Traffic Crashes - Crashes](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if)
 - [Traffic Crashes - People](https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d)
 - [Traffic Crashes - Vehicles](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3)
-
-We created a `TARGET` column based on the injury that each individual person incurred during the crash which divided our target class into 4 categories. This resulted in a highly imbalanced dataset.
 
 ### Data Understanding
  
