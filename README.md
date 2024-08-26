@@ -25,9 +25,6 @@ The City of Chicago faces a persistent challenge with traffic accidents, which r
 
 
 ## Data & Methods
-
-Data regarding crashes in the City of Chicago was given in three separate files. Our primary dataset contains roughly 1,000,000 rows, each pertaining to a given person involved in a car crash since 2013. While other datasets for the vehicles involved exist, given the time frame of the project these were excluded from the current analysis, but can be incorporated at a later time. Visualizations of the data and brief explanations can be found in the ChicagoCrashes_EDA notebook.
-
 The project uses the following datasets:
 
 - [Traffic Crashes - Crashes](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if)
