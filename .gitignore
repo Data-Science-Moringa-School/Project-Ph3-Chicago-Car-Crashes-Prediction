@@ -9,6 +9,9 @@ data/raw_data/Traffic_Crashes_-_Vehicles_20240821.csv
 /data/processed_data/cleaned_vehicles.csv
 /data/processed_data/cleaned_merged_traffic_crashes.csv
 
+# Ignore the merged dataset file
+/data/processed_data/cleaned_merged_traffic_crashes.csv
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
