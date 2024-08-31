@@ -3,6 +3,12 @@ data/raw_data/Traffic_Crashes_-_Crashes_20240826.csv
 data/raw_data/Traffic_Crashes_-_People_20240826.csv
 data/raw_data/Traffic_Crashes_-_Vehicles_20240821.csv
 
+# Ignore processed data files
+/data/processed_data/cleaned_crashes.csv
+/data/processed_data/cleaned_people.csv
+/data/processed_data/cleaned_vehicles.csv
+/data/processed_data/cleaned_merged_traffic_crashes.csv
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
