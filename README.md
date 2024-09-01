@@ -76,19 +76,36 @@ REPORTED, NOT EVIDENT: Precision: 0.78, Recall: 0.77, F1-Score: 0.77
 
 ## Results
 
+The final model achieved an accuracy of 95% on the test set, indicating a strong performance in predicting the primary contributory cause of car accidents. The tuned Decision Tree model showed improvements over the baseline, particularly in precision and recall for most of the classes.
+
+**Visualizations**
+
+Confusion Matrix: A confusion matrix was created to visualize the model’s performance across different classes.
+
+ROC Curves: ROC curves and AUC scores were plotted to evaluate the model’s performance in distinguishing between different classes.
+
 
 ### Conclusion
+The Decision Tree model, after hyperparameter tuning, provided a robust classifier capable of predicting the primary contributory cause of car accidents with high accuracy. The insights from this model can help the Vehicle Safety Board and the City of Chicago identify key risk factors and implement targeted safety measures.
 
 ### Recommendations
+Enhanced Road Safety Programs: Focus on the most common causes identified by the model, such as driving at excessive speeds or in poor weather conditions.
 
+Targeted Interventions: Deploy more traffic control measures in areas identified as high-risk by the model.
+
+Public Awareness Campaigns: Increase public awareness around the major contributory factors to accidents, as predicted by the model.
 
 ### Possible Next Steps
+Model Refinement: Explore more advanced ensemble techniques, like Random Forest or Gradient Boosting, to potentially improve model performance.
 
+Real-Time Prediction: Develop an application that provides real-time predictions based on live data from traffic sensors and weather stations.
+
+Integration with Policy Making: Work closely with city officials to integrate the model’s predictions into the decision-making process for urban planning and traffic management.
 
 
 ## For More Information
 
-
+Detailed documentation of the data, methodologies, and code used in this project is available upon request.
 
 ### Structure of Repository:
 
