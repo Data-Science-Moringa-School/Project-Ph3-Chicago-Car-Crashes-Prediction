@@ -1,6 +1,26 @@
 # Chicago Car Crashes
 
-## Chicago Car Crashes Predictions With Logistic Regression & Decision Tress
+## Table of Contents
+1. [Chicago Car Crashes Predictions With Logistic Regression & Decision Trees](#chicago-car-crashes-predictions-with-logistic-regression--decision-trees)
+2. [Author](#author-maureen-wanjeri-august-2024)
+3. [Overview](#overview)
+4. [Business Problem](#business-problem)
+5. [Data Understanding](#data-understanding)
+   - [Datasets](#datasets)
+   - [Key Steps in Data Understanding](#key-steps-in-data-understanding)
+6. [Data Preparation](#data-preparation)
+7. [Modeling](#modeling)
+   - [Baseline Model](#baseline-model)
+   - [Baseline Decision Tree Model Accuracy](#baseline-decision-tree-model-accuracy)
+8. [Results](#results)
+   - [Visualizations](#visualizations)
+9. [Conclusion](#conclusion)
+10. [Recommendations](#recommendations)
+11. [Possible Next Steps](#possible-next-steps)
+12. [For More Information](#for-more-information)
+13. [Structure of Repository](#structure-of-repository)
+
+## Chicago Car Crashes Predictions With Decision Tress
 
 ### Author: Maureen Wanjeri, August 2024
 
@@ -138,4 +158,11 @@ Integration with Policy Making: Work closely with city officials to integrate th
 Detailed documentation of the data, methodologies, and code used in this project is available upon request.
 
 ### Structure of Repository:
-
+Project-Ph3-Chicago-Car-Crashes-Prediction-main/
+├── notebooks/
+│   └── main_index.ipynb       # Main Jupyter Notebook with code and analysis
+├── readme_images/             # Images used in the README.md
+├── visuals/                   # Visualizations generated during the analysis
+├── Non_technical_Presentation #presentations for a non-technical audience
+├── .gitignore                 # Git ignore file
+└── README.md                  # Project documentation (this file)
