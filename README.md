@@ -41,8 +41,11 @@ The data used in this project was sourced from the City of Chicago's public data
 **Key Steps in Data Understanding**
 
 Initial Exploration: Reviewed the datasets to understand the structure, key variables, and relationships between the datasets.
+
 Data Cleaning: Addressed missing values and data inconsistencies, and merged the datasets to create a unified dataset for modeling.
+
 Feature Selection: Identified key features that are most likely to impact the primary contributory cause of accidents.
+
 ![image](https://github.com/user-attachments/assets/a43ab4cb-120e-4084-a06c-a7342c7ba68a)
 ![image](https://github.com/user-attachments/assets/22f7fa23-ce8f-4bdd-bc1d-af8b7b298e0d)
 ![image](https://github.com/user-attachments/assets/c976fadd-0a41-4f47-bd2f-31851d3a13d1)
@@ -69,9 +72,13 @@ Feature Selection: Identified key features that are most likely to impact the pr
 During data preparation, the following steps were taken:
 
 -Handling Missing Values: Missing values were addressed using imputation methods, or the columns were dropped if deemed irrelevant to the analysis.
+
 -Feature Engineering: New features were created based on domain knowledge, such as interaction terms between key variables like speed limit and vehicle type.
+
 -Feature Encoding: Categorical variables were converted into numerical format using one-hot encoding.
+
 -Feature Scaling: Numerical features were standardized to ensure they contribute equally to the model's predictions.
+
 -Data Splitting: The data was split into training and testing sets to evaluate model performance.
 
 ![image](https://github.com/user-attachments/assets/a1415fc7-b09e-4cd9-88d6-df03634f1c67)
