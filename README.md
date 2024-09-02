@@ -43,6 +43,26 @@ The data used in this project was sourced from the City of Chicago's public data
 Initial Exploration: Reviewed the datasets to understand the structure, key variables, and relationships between the datasets.
 Data Cleaning: Addressed missing values and data inconsistencies, and merged the datasets to create a unified dataset for modeling.
 Feature Selection: Identified key features that are most likely to impact the primary contributory cause of accidents.
+![image](https://github.com/user-attachments/assets/a43ab4cb-120e-4084-a06c-a7342c7ba68a)
+![image](https://github.com/user-attachments/assets/22f7fa23-ce8f-4bdd-bc1d-af8b7b298e0d)
+![image](https://github.com/user-attachments/assets/c976fadd-0a41-4f47-bd2f-31851d3a13d1)
+![image](https://github.com/user-attachments/assets/b9981a3c-5e06-4a90-a659-66cfadb0ee5b)
+![image](https://github.com/user-attachments/assets/582cecc9-81b1-4a61-8c9c-8813aecb254a)
+![image](https://github.com/user-attachments/assets/8b4120ce-2f5c-405e-adee-00b39d5a63b3)
+![image](https://github.com/user-attachments/assets/4ae5a24c-08ee-4027-abb5-914fd4a5e870)
+![image](https://github.com/user-attachments/assets/8f33ea68-3135-48b1-9796-0205bf6b9109)
+![image](https://github.com/user-attachments/assets/d4f3e4a2-8aee-4bb5-8884-59b6d3007d77)
+![image](https://github.com/user-attachments/assets/703c9a65-6538-4692-8e11-d0605f4d8f3b)
+![image](https://github.com/user-attachments/assets/8ef2b8fb-3872-49c2-95f0-1ba542161088)
+![image](https://github.com/user-attachments/assets/71e7209a-603b-4322-8b87-ef69b9bf9ed2)
+![image](https://github.com/user-attachments/assets/94c45ac2-2c13-4113-a2d4-de44f7b1abea)
+![image](https://github.com/user-attachments/assets/e4fc8f17-5adb-4210-82ed-3cab774db5ac)
+![image](https://github.com/user-attachments/assets/d201644c-dd4b-497a-b729-a22c88274d73)
+![image](https://github.com/user-attachments/assets/b1212926-da90-4863-b147-56834a734de8)
+![image](https://github.com/user-attachments/assets/59fc4293-77b0-4c82-8028-9f6924162418)
+![image](https://github.com/user-attachments/assets/af711a01-53d0-40b9-bc2a-0f70bec3ef40)
+
+
  
 ## Data Preparation
 
@@ -53,6 +73,10 @@ During data preparation, the following steps were taken:
 -Feature Encoding: Categorical variables were converted into numerical format using one-hot encoding.
 -Feature Scaling: Numerical features were standardized to ensure they contribute equally to the model's predictions.
 -Data Splitting: The data was split into training and testing sets to evaluate model performance.
+
+![image](https://github.com/user-attachments/assets/a1415fc7-b09e-4cd9-88d6-df03634f1c67)
+
+
 
 ## Modeling
 
@@ -70,9 +94,8 @@ NO INDICATION OF INJURY: Precision: 0.98, Recall: 0.98, F1-Score: 0.98
 NONINCAPACITATING INJURY: Precision: 0.83, Recall: 0.82, F1-Score: 0.82
 REPORTED, NOT EVIDENT: Precision: 0.78, Recall: 0.77, F1-Score: 0.77
 
-
-
-
+![image](https://github.com/user-attachments/assets/3ce3e493-3f89-4f32-927f-f82154dab520)
+![image](https://github.com/user-attachments/assets/9595bd6c-ebcb-490d-96d0-15b435bf60dc)
 
 ## Results
 
