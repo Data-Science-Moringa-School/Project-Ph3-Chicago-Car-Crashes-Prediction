@@ -157,12 +157,13 @@ Integration with Policy Making: Work closely with city officials to integrate th
 
 Detailed documentation of the data, methodologies, and code used in this project is available upon request.
 
-### Structure of Repository:
+## Repository Structure
+```bash
 Project-Ph3-Chicago-Car-Crashes-Prediction-main/
 ├── notebooks/
 │   └── main_index.ipynb       # Main Jupyter Notebook with code and analysis
 ├── readme_images/             # Images used in the README.md
 ├── visuals/                   # Visualizations generated during the analysis
-├── Non_technical_Presentation #presentations for a non-technical audience
+├── Non_technical_Presentation/ # Folder containing slides or presentations for a non-technical audience
 ├── .gitignore                 # Git ignore file
 └── README.md                  # Project documentation (this file)
