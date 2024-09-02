@@ -107,19 +107,18 @@ During data preparation, the following steps were taken:
 
 ## Modeling
 
-The modeling phase involved the following steps:
-
-Baseline Model: A baseline Decision Tree model was trained without any hyperparameter tuning. The initial model provided a benchmark for further improvements.
-
-Baseline Decision Tree Model Accuracy: 0.9685
-
-Classification Report:
-
-FATAL: Precision: 0.88, Recall: 0.90, F1-Score: 0.89
-INCAPACITATING INJURY: Precision: 0.83, Recall: 0.83, F1-Score: 0.83
-NO INDICATION OF INJURY: Precision: 0.98, Recall: 0.98, F1-Score: 0.98
-NONINCAPACITATING INJURY: Precision: 0.83, Recall: 0.82, F1-Score: 0.82
-REPORTED, NOT EVIDENT: Precision: 0.78, Recall: 0.77, F1-Score: 0.77
+Developed a basic model using a Decision Tree to predict the main cause of car accidents in Chicago.
+Model Performance:
+Prediction Accuracy: The model was able to accurately predict most cases where there was no indication of injury, as seen in the confusion matrix.
+Model Quality: The ROC curve, which measures the model’s ability to differentiate between classes, showed a strong performance with a score of 0.91.
+Challenges Encountered
+Memory Constraints:
+While trying to improve the model and test other types like Logistic Regression, we faced significant memory limitations.
+These limitations meant we couldn't run more complex models or tune the existing model further.
+Impact on Project:
+Due to these technical challenges, we were only able to present results from the baseline Decision Tree model without further refinements or additional models.
+Conclusion
+Despite the challenges, the baseline Decision Tree model provided valuable insights, but further work is needed with more robust resources to refine and expand the analysis.
 
 ![image](https://github.com/user-attachments/assets/3ce3e493-3f89-4f32-927f-f82154dab520)
 ![image](https://github.com/user-attachments/assets/9595bd6c-ebcb-490d-96d0-15b435bf60dc)
